@@ -37,4 +37,6 @@ def find_the_cheese(array)# code an argument here
             nil
           end
           i +=1
-        end
+      end
+    end
+  end
