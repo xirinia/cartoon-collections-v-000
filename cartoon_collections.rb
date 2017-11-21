@@ -25,13 +25,14 @@ end
 
 def find_the_cheese(array)# code an argument here
     # the array below is here to help
+    cheese = []
     cheese_types = ["cheddar", "gouda", "camembert"]
     array.include?("cheddar" || "gouda" ||"camembert")
       if true
         i=0
         while i < array.length
           if array[i] == ("cheddar" || "gouda" ||"camembert")
-            array[i]
+            cheese << array[i]
 
           else
             nil
