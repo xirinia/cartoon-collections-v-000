@@ -33,11 +33,13 @@ def find_the_cheese(array)# code an argument here
         while i < array.length
           if array[i] == ("cheddar" || "gouda" ||"camembert")
             cheese << array[i]
+            i +=1
 
-          else
-            nil
-          end
-          i +=1
+      else
+        nil
+        i +=1
       end
     end
+    cheese[0]
   end
+end
